@@ -1,0 +1,21 @@
+Testing de Aplicaciones Web
+	--> XAMPP : emulador de servidor web para la PC!
+		--> Servidor Apache: permite ejecutar codigo PHP (lenguaje backend)
+
+	--> App Web: tiene 2 partes
+		--> frontend: HTML, CSS, Javascript
+		--> backend: PHP, Java, Python, Node JS, y un largo etcetera
+
+
+Ubicar los archivos php en la siguiente ruta o path:
+C:/xampp/htdocs
+
+En la barra del navegador, reemplazar solamente:
+C:/xampp/htdocs/miArchivo.php
+
+por:
+localhost/miArchivo.php
+
+
+localhost  --> loop back --> placa de red NIC
+ping 127.0.0.1
