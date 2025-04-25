@@ -1,0 +1,6 @@
+Para PHP
+	--> xampp: emulador de servidor web en nuestra PC
+	xampp.org
+
+	--> Ruta donde alojar archivos php
+		--> c:/xampp/htdocs
