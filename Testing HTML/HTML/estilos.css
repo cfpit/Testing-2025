@@ -1,0 +1,19 @@
+/* selector de etiqueta */
+body
+{
+    background-color: bisque
+}
+
+/* selector de id */
+#titulo
+{
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+/* selector de clase */
+.resaltado
+{
+    color: red;
+    font-weight: bolder;
+}
