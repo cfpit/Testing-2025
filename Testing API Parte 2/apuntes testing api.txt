@@ -1,0 +1,26 @@
+API Externa
+GET	
+https://dolarapi.com/v1/dolares/blue
+
+------------------------------------------
+Instalación de MySQL
+https://www.youtube.com/watch?v=tPPFPC86XnQ
+
+----------------------------------
+En la terminal instalar el plugin:
+npm install mysql2
+
+En el codigo de app.js cambiar a:
+const mysql = require('mysql2');
+
+----------------------------------
+
+clientes HTTP para instalar como extension en el VSC:
+	--> tunder client
+	--> postman
+
+
+
+
+
+
