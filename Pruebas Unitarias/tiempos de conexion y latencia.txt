@@ -1,0 +1,12 @@
+Tiempo de Conexión Aceptable:
+Excelente: < 50 ms
+Bueno: 50-150 ms
+Aceptable: 150-300 ms
+Problemático: > 300 ms
+
+
+Latencia Aceptable (aplicaciones web):
+Excelente: < 200 ms
+Bueno: 200-500 ms
+Aceptable: 500-1000 ms
+Problemático: > 1000 ms

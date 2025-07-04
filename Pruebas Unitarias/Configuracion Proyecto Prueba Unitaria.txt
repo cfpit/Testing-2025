@@ -1,0 +1,39 @@
+Configuracion Proyecto Prueba Unitaria
+
+1) Crear proyecto "Prueba Unitaria"
+
+2) Agregar el paquete "prueba" y dentro de ella la clase Calculadora
+
+package prueba;
+
+public class Calculadora {
+    public int sumar(int a, int b) {
+        return a + b;
+    }
+}
+
+
+3) Agregar a la carpeta Libraries (Add Library) Junit(version 4 funciona con Ant y version 5 con Maven) y Hamcrest.
+
+4) Boton derecho sobre el nombre del Proyecto y agregar new -> JUnit Test , alli se genera  "Test Packages" y alli agregar paquete "pruebaUnitaria" y dentro la clase CalculadoraPrueba
+
+
+package pruebaUnitaria;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+import prueba.Calculadora;
+
+public class CalculadoraPrueba {
+
+	@Test
+    public void pruebaSumar() {
+        Calculadora c = new Calculadora();
+        int resultado = c.sumar(2, 3);
+        assertEquals(5, resultado);
+        assertTrue(resultado < 15);
+
+    }
+}
+
+5) Finalmente, ejecutar el archivo CalculadoraPrueba.java (boton derecho sobre el archivo -> Test File) y verificar si se cumplen con las aserciones(afirmaciones) que se desean testear.
